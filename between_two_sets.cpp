@@ -1,3 +1,4 @@
+// HackerRank
 /*
 O(sqrt(C)) where C is the total number of elements in A and in B.
 1. find the LCM of all the integers of array A.
