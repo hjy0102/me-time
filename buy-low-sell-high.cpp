@@ -15,6 +15,8 @@ maximum jump of 21 if purchased at 𝑖 = 4 and sold at 𝑗 = 13.
 #include <string>
 #include <array>
 #include <iterator>
+#include <stdio.h>
+#include <math.h>
 
 using namespace std;
 
@@ -57,34 +59,76 @@ void getRich_BF(int n, int S[]){
 }
 
 // divide and conquer method
-void getRich_DAC(int n, int S[]) {
+int getRich_DAC(int n, int S[]) {
     cout << "get Rich by DAC" << endl;
     printArray(n, S);
-
-    int[] minMax;
+    
+    // conquer
+    int minMax[2*sizeof(S[0])];
+    int _min;
+    int _max;
 
     if (n == 1) {
-        int _min = S[0];
-        int _max = S[0];
-        minMax = { _min, _max}
+        _min = S[0];
+        _max = S[0];
+        minMax[0] = _min;
+        minMax[1] = _max;
         return minMax;
     }
 
     if (n == 2) {
         if (S[0] < S[1]){
-            int _min = S[0];
-            int _max = S[1];
+            _min = S[0];
+            _max = S[1];
 
         } else {
-            int _min = -1;
-            int _max = -1;
+            _min = -1;
+            _max = -1;
         }
-        minMax = {_min, _max};
+        minMax[0] = _min;
+        minMax[1] = _max;
         return minMax;
     }
+    // divide 
 
-    int[] part1;
+    if (n > 2) {
+        int p1 = ceil(n/2);
+        int p2 = n - p1;
 
+        int S1[p1];
+        int S2[p2];
+
+        for (int i = 0; i < p1; i++){
+            S1[i] = S[i];
+        }
+
+        for (int j = p1; j < p2; j++){
+            S2[j] = S[j];
+        }
+
+        int part1[2] = getRich_DAC(p1, S1);
+        int part2[2] = getRich_DAC(p2, S2);
+
+        if ((part2[1]-part2[0]) > (part1[1]- part1[0])) {
+            minMax[0] = part2[0];
+            minMax[1] = part2[1];
+        } else {
+            minMax[0] = part1[0];
+            minMax[1] = max(part1[1], part2[1]);
+        }
+
+        return minMax;
+    }
+}
+
+void printValue_DAC(int n, int S[]){
+    int m[2] = getRich_DAC(n, S);
+    int value = m[1] - m[0];
+    if (value > -1){
+        cout << "Max jump value is : " << value << " by divide-and-conquer." << endl;
+    } else {
+        cout << "Error ... " <<endl;
+    }
 }
 
 int main (int argc, char* argv[]){
@@ -104,7 +148,7 @@ int main (int argc, char* argv[]){
             getRich_BF(n, S);
             return 0;
         case (2):
-            getRich_DAC(n, S);
+            printValue_DAC(n, S);
             return 0;
         default: 
             cout << "Your choice was invalid. Default brute force algorithm was selected." <<endl;
