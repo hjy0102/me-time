@@ -20,6 +20,8 @@ maximum jump of 21 if purchased at 𝑖 = 4 and sold at 𝑗 = 13.
 
 using namespace std;
 
+//TODO
+
 // print function
 void printArray(int n, int S[]){
 
