@@ -18,6 +18,9 @@
         "exception": "cpp",
         "new": "cpp",
         "stdexcept": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "array": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp"
     }
 }
