@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
     }
     string str;
     while(!fin.eof()){
-        cout << getline(fin, str);
+        cout << getline(fin, str) << endl;
 
         istringstream iss(str, istringstream::in);
     }
@@ -35,16 +35,16 @@ int main(int argc, char *argv[])
     while (ss >> i)
     {
         vect.push_back(i);
-        if (ss.peek() == ',')
+        if (ss.peek() == ',' || ss.peek() == ' ' )
             ss.ignore();
     }
     double totalSum;
     for (i=0; i< vect.size(); i++){
-        cout << vect.at(i)<<endl;
+        // cout << vect.at(i)<<endl;
         totalSum = totalSum + vect.at(i);
     }
-    cout << "totalSum is " <<totalSum << endl;
-    cout << "size is " <<vect.size() << endl;
+    cout << "totalSum is " << totalSum << endl;
+    cout << "size is " << vect.size() << endl;
     
     double avg = totalSum / vect.size();
     //double remainder = totalSum % (double)vect.size();
@@ -57,9 +57,6 @@ int main(int argc, char *argv[])
     cout <<"average is: "<<setprecision(0)<<fixed<< round(avg) << endl;
     
     return 0;
-        
-
-
-
+    
 
 }

@@ -20,7 +20,7 @@ int main(int argc, char *argv[]){
         return -1;
     }
     string str;
-    vector< vector<int> >matrix;
+    int matrix[][];
     int row = 0;
     int col = 0;
 

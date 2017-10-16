@@ -18,6 +18,13 @@
     </td>
     <td>written in C++</td>
   </tr>
+  <tr>
+    <td>Oct 16 2017</td>
+    <td>HackerRank</td>
+    <td>g++ The_Coin_Change_Problem.cpp -o coinProblem</br>./coinProblem </td>
+    <td></td>
+  </tr>
+
 
 </table>
 
