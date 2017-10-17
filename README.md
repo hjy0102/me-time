@@ -24,6 +24,12 @@
     <td>g++ The_Coin_Change_Problem.cpp -o coinProblem</br>./coinProblem </td>
     <td></td>
   </tr>
+    <tr>
+    <td>Oct 17 2017</td>
+    <td>HackerRank</td>
+    <td>g++ candies.cpp -o candies</br>./candies </td>
+    <td></td>
+  </tr>
 
 
 </table>
