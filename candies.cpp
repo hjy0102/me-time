@@ -2,31 +2,8 @@
 
 using namespace std;
 
-// int candies(int n, vector <int> arr) {
-//     int totalCandies = 0;
 
-//     vector<int> left = vector<int>(n, 1);
-//     vector<int> right = vector<int>(n, 1);
-    
-//     for (int i = n - 2; i >= 0; i--) {
-//         if (arr[i + 1] < arr[i])
-//             right[i] = 1 + right[i + 1];
-//     }
-
-//     for (int i = 1; i < n; i++) {
-//         if (arr[i - 1] < arr[i])
-//             left[i] = 1 + left[i - 1];
-//     }
-
-//     for (int i = 0; i < n; i++) {
-//         totalCandies += max(right[i], left[i]);
-//     }
-
-//     return totalCandies;
-    
-// }
-
-int candies2(int n, vector <int> arr) {
+int candies(int n, vector <int> arr) {
     int totalCandies = 0;
 
     vector<int> memo = vector<int>(n, 1);
@@ -56,10 +33,8 @@ int main() {
     for(int arr_i = 0; arr_i < n; arr_i++){
        cin >> arr[arr_i];
     }
-    // int result = candies(n, arr);
-    int result2 = candies2(n, arr);
-    // cout << result << endl;
-    cout << result2 << endl;
+    int result = candies(n, arr);
+    cout << result << endl;
     
     return 0;
 }
