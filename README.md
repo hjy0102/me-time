@@ -1,6 +1,5 @@
 # me-time
-<b>me-time</b> is a repository for miscellaneous coding problems that I've done. <br> Why can't I just use gists instead? Answer: mmm....
-</br>
+<b>me-time</b> is a repository for miscellaneous coding problems that I've done.
 
 ## Latest
 

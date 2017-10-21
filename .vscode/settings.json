@@ -22,6 +22,7 @@
         "array": "cpp",
         "iosfwd": "cpp",
         "istream": "cpp",
-        "ios": "cpp"
+        "ios": "cpp",
+        "random": "cpp"
     }
 }
