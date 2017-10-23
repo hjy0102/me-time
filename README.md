@@ -10,13 +10,19 @@
     <th>Compiles?</th>
     <th>Notes</th>
   </tr>
-    <tr>
+  <tr>
+    <td>Oct 23 2017</td>
+    <td>HackerRank - University CodeSprint 3</td>
+    <td>Y</td>
+    <td>Archived code sprint practice</td>
+  </tr>
+  <tr>
     <td>Oct 17 2017</td>
     <td>HackerRank</td>
     <td>g++ candies.cpp -o candies</br>./candies </td>
     <td></td>
   </tr>
-    <tr>
+  <tr>
     <td>Oct 16 2017</td>
     <td>HackerRank</td>
     <td>g++ The_Coin_Change_Problem.cpp -o coinProblem</br>./coinProblem </td>
