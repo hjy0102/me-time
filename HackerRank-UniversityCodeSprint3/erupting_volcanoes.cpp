@@ -45,18 +45,13 @@ int main(){
             for (int column = 0; column < n; column++){
                 int x_dist = abs(row - x);
                 int y_dist = abs(column - y);
-                if ((w-max(x_dist, y_dist)) < 0){
-                    board[row][column] =  board[row][column];
-                } else {
+                if ((w-max(x_dist, y_dist)) > 0){
                     board[row][column] =  board[row][column] + w - max(x_dist, y_dist);
                 }
             };
         };
-        // printBoard(board, n, n);
     }
     
-    // printBoard(board, n, n);
-
     int ans = findMax(board, n, n);
 
     cout << ans << endl;
