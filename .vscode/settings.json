@@ -23,6 +23,23 @@
         "iosfwd": "cpp",
         "istream": "cpp",
         "ios": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "__string": "cpp",
+        "algorithm": "cpp",
+        "deque": "cpp",
+        "future": "cpp",
+        "memory": "cpp",
+        "type_traits": "cpp",
+        "__hash_table": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "queue": "cpp",
+        "regex": "cpp",
+        "stack": "cpp",
+        "string_view": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "valarray": "cpp",
+        "chrono": "cpp"
     }
 }
