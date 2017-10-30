@@ -11,6 +11,12 @@
     <th>Notes</th>
   </tr>
   <tr>
+    <td>Oct 29 2017</td>
+    <td>Cracking the Code Interview</td>
+    <td>g++ CrackingtheCode/leftRotation.cpp -o leftRotation</td>
+    <td>Archived code sprint practice</td>
+  </tr>
+  <tr>
     <td>Oct 23 2017</td>
     <td>HackerRank - University CodeSprint 3</td>
     <td>g++ WomensCodeSprint4/extraSweet.cpp -o sweet </br>g++ WomensCodeSprint4/legos.cpp -o legos</td>
