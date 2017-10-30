@@ -13,7 +13,7 @@
   <tr>
     <td>Oct 23 2017</td>
     <td>HackerRank - University CodeSprint 3</td>
-    <td>Y</td>
+    <td>g++ WomensCodeSprint4/extraSweet.cpp -o sweet </br>g++ WomensCodeSprint4/legos.cpp -o legos</td>
     <td>Archived code sprint practice</td>
   </tr>
   <tr>
