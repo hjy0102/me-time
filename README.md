@@ -11,6 +11,12 @@
     <th>Notes</th>
   </tr>
   <tr>
+    <td>Nov 1 2017</td>
+    <td>Cracking the Code Interview</td>
+    <td>g++ CrackingtheCode/strings_anagrams.cpp -o anagrams</td>
+    <td>Archived code sprint practice</td>
+  </tr>
+  <tr>
     <td>Oct 29 2017</td>
     <td>Cracking the Code Interview</td>
     <td>g++ CrackingtheCode/leftRotation.cpp -o leftRotation</td>
