@@ -42,6 +42,7 @@ int validFibNumbers(int n){
     // including zero
     return i+1;
 };
+
 // generate a random fib number given an upperbound
 int upperFib(int n){
     std::srand(std::time(0)); // use current time as seed for random generator
