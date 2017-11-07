@@ -45,8 +45,9 @@ int validFibNumbers(int n){
 int upperFib(int n){
     std::srand(std::time(0)); // use current time as seed for random generator
     int random_variable = std::rand();
-    
+
     int total = validFibNumbers(n);
+    // hashfunction
     int key = (random_variable * 13) % total;
 
     return dfib(key);
