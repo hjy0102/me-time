@@ -20,6 +20,7 @@ int rfib(int n){
     return rfib(n-1) + rfib(n-2);
 };
 
+// dynamic fibonnaci number 
 int dfib(int n){
     int f[n+1];
     f[0] = 0;
@@ -41,7 +42,7 @@ int validFibNumbers(int n){
     // including zero
     return i+1;
 };
-
+// generate a random fib number given an upperbound
 int upperFib(int n){
     std::srand(std::time(0)); // use current time as seed for random generator
     int random_variable = std::rand();
