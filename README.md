@@ -11,6 +11,12 @@
     <th>Notes</th>
   </tr>
   <tr>
+    <td>Nov 6 2017</td>
+    <td>Cracking the Code Interview</td>
+    <td>g++ IXL-interview-questions/rand_fib.cpp -o fib</td>
+    <td>Source: Glassdoor reviews</td>
+  </tr>
+  <tr>
     <td>Nov 1 2017</td>
     <td>Cracking the Code Interview</td>
     <td>g++ CrackingtheCode/strings_anagrams.cpp -o anagrams</td>
