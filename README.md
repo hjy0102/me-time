@@ -11,6 +11,12 @@
     <th>Notes</th>
   </tr>
   <tr>
+    <td>Nov 9 2017</td>
+    <td>isThisABST? hackerrank</td>
+    <td>No </td>
+    <td>No main() fn included</td>
+  </tr>
+  <tr>
     <td>Nov 6 2017</td>
     <td>Cracking the Code Interview</td>
     <td>g++ IXL-interview-questions/rand_fib.cpp -o fib</td>
