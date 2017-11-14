@@ -11,6 +11,12 @@
     <th>Notes</th>
   </tr>
   <tr>
+    <td>Nov 13 2017</td>
+    <td>Week of Coding 35 (Hackerrank)</td>
+    <td>g++ week_of_coding_35/[file].cpp - [output] </td>
+    <td>Hackerrank contest questions</td>
+  </tr>
+  <tr>
     <td>Nov 9 2017</td>
     <td>isThisABST? hackerrank</td>
     <td>No </td>
