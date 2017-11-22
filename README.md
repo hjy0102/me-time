@@ -11,9 +11,15 @@
     <th>Notes</th>
   </tr>
   <tr>
+    <td>Nov 21 2017</td>
+    <td>Cracking the Coding Interview (Hackerrank)</td>
+    <td>g++ CrackingtheCode/balanced_brackets.cpp -o brackets </td>
+    <td>Hackerrank</td>
+  </tr>
+  <tr>
     <td>Nov 13 2017</td>
     <td>Week of Coding 35 (Hackerrank)</td>
-    <td>g++ week_of_coding_35/[file].cpp - [output] </td>
+    <td>g++ week_of_coding_35/[file].cpp -o [output] </td>
     <td>Hackerrank contest questions</td>
   </tr>
   <tr>
